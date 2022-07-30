@@ -1,0 +1,2853 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+O sistema n�o pode encontrar o caminho especificado.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri Jul 29 08:21:54 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\Danilo e Igor
+# environment
+TMPDIR = C:\TEMP
+# makefile (from 'mips/common.mk', line 41)
+CPPFLAGS_Release = -Os
+# environment
+LOCALAPPDATA = C:\Users\Danilo e Igor\AppData\Local
+# environment
+VSCODE_CWD = C:\psxfunkinproj\PSXFunkinSoupEngine\src
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-1.4.1\lib\
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2732_XHQBZQCCWXFSSNKS
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic 
+
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Danilo e Igor\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\DANILO~1\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile (from 'mips/common.mk', line 29)
+ARCHFLAGS = -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'mips/common.mk', line 10)
+FORMAT = elf32-littlemips
+# environment
+ONEDRIVE = C:\Users\Danilo e Igor\OneDrive
+# makefile
+CURDIR := c:/psxfunkinproj/PSXFunkinSoupEngine
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan Library-1.4.1\x86\lib\
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 4)
+SRCS = src/main.c src/engine/mutil.c src/engine/random.c src/engine/archive.c src/font/font.c src/engine/trans.c src/engine/loadscr.c src/engine/save.c src/stage.c src/debug.c src/psx.c src/engine/io.c src/engine/gfx.c src/engine/audio.c src/engine/pad.c src/engine/timer.c src/engine/movie.c src/engine/animation.c src/engine/character.c src/stage/dummy.c src/stage/week1.c src/stage/week2.c src/stage/week3.c src/stage/week4.c src/stage/week5.c src/stage/week6.c src/menu/menu.c src/menu/menuplayer.c src/menu/menuopponent.c src/character/bf.c src/character/bfweeb.c src/character/speaker.c src/character/dad.c src/character/spook.c src/character/monster.c src/character/monsterx.c src/character/pico.c src/character/mom.c src/character/xmasbf.c src/character/xmasgf.c src/character/xmasp.c src/character/senpai.c src/character/senpaim.c src/character/spirit.c src/character/gf.c src/character/gfweeb.c src/character/clucky.c src/object/object.c src/object/combo.c src/object/splash.c mips/common/crt0/crt0.s
+# makefile (from 'mips/common.mk', line 23)
+LDSCRIPT := c:/psxfunkinproj/PSXFunkinSoupEngine/mips//default.ld -Tc:/psxfunkinproj/PSXFunkinSoupEngine/mips//ps-exe.ld
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# makefile (from 'mips/common.mk', line 3)
+HAS_LINUX_MIPS_GCC = $(shell which mipsel-linux-gnu-gcc > /dev/null 2> /dev/null && echo true || echo false)
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'mips/common/crt0/crt0.dep', line 1)
+MAKEFILE_LIST := Makefile mips/common.mk src/main.dep src/engine/mutil.dep src/engine/random.dep src/engine/archive.dep src/font/font.dep src/engine/trans.dep src/engine/loadscr.dep src/engine/save.dep src/stage.dep src/debug.dep src/psx.dep src/engine/io.dep src/engine/gfx.dep src/engine/audio.dep src/engine/pad.dep src/engine/timer.dep src/engine/movie.dep src/engine/animation.dep src/engine/character.dep src/stage/dummy.dep src/stage/week1.dep src/stage/week2.dep src/stage/week3.dep src/stage/week4.dep src/stage/week5.dep src/stage/week6.dep src/menu/menu.dep src/menu/menuplayer.dep src/menu/menuopponent.dep src/character/bf.dep src/character/bfweeb.dep src/character/speaker.dep src/character/dad.dep src/character/spook.dep src/character/monster.dep src/character/monsterx.dep src/character/pico.dep src/character/mom.dep src/character/xmasbf.dep src/character/xmasgf.dep src/character/xmasp.dep src/character/senpai.dep src/character/senpaim.dep src/character/spirit.dep src/character/gf.dep src/character/gfweeb.dep src/character/clucky.dep src/object/object.dep src/object/combo.dep src/object/splash.dep mips/common/crt0/crt0.dep
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 2732
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+NEKO_INSTPATH = C:\HaxeToolkit\neko
+# automatic
+*F = $(notdir $*)
+# environment
+G032TMP = C:\TEMP
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# environment
+HAXEPATH = C:\HaxeToolkit\haxe
+# default
+MAKE_HOST := Windows32
+# makefile (from 'mips/common.mk', line 53)
+OBJS = $(addsuffix .o, $(basename $(SRCS)))
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\Danilo e Igor
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\psyq\g++-mipsel-none-elf-10.3.0\bin;C:\Program Files\Git\cmd;C:\HaxeToolkit\haxe;C:\HaxeToolkit\neko;C:\Users\Danilo e Igor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Danilo e Igor\AppData\Local\GitHubDesktop\bin
+# environment
+COMPUTERNAME = LAPTOP-85KOECI1
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'mips/common.mk', line 42)
+LDFLAGS_Release = -Os
+# makefile (from 'mips/common.mk', line 26)
+USE_FUNCTION_SECTIONS = true
+# makefile (from 'mips/common.mk', line 9)
+PREFIX = mipsel-none-elf
+# environment
+LOGONSERVER = \\LAPTOP-85KOECI1
+# environment
+USERNAME = Danilo e Igor
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = LAPTOP-85KOECI1
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+OS = Windows_NT
+# makefile (from 'mips/common.mk', line 50)
+CPPFLAGS = -Wall -Wextra -pedantic -mno-check-zero-division -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes $(ARCHFLAGS) -I$(ROOTDIR)/psyq/include -g $(CPPFLAGS_$(BUILD))
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.4.1\
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 2)
+TYPE = ps-exe
+# default
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# makefile (from 'mips/common.mk', line 1)
+BUILD = Release
+# makefile (from 'mips/common.mk', line 51)
+LDFLAGS = -Wl,--start-group -lapi -lc2 -lcard -lcd -lds -letc -lgpu -lpad -lpress -lsnd -lspu -flto -Wl,--end-group -Wl,-Map=$(BINDIR)$(TARGET).map -nostdlib -T$(LDSCRIPT) -static -Wl,--gc-sections $(ARCHFLAGS) -Wl,--oformat=$(FORMAT) -L$(ROOTDIR)/psyq/lib -g $(LDFLAGS_$(BUILD))
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-85KOECI1
+# environment
+NUMBER_OF_PROCESSORS = 2
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\Danilo e Igor\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\DANILO~1\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\993d5172242ee462e11030f2d8bc6e8b-1.69.2-main-sock
+# makefile (from 'mips/common.mk', line 44)
+CPPFLAGS_Debug = -Os
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'mips/common.mk', line 86)
+DEPS :=    src/main.dep    src/engine/mutil.dep    src/engine/random.dep    src/engine/archive.dep    src/font/font.dep    src/engine/trans.dep    src/engine/loadscr.dep    src/engine/save.dep    src/stage.dep    src/debug.dep    src/psx.dep    src/engine/io.dep    src/engine/gfx.dep    src/engine/audio.dep    src/engine/pad.dep    src/engine/timer.dep    src/engine/movie.dep    src/engine/animation.dep    src/engine/character.dep    src/stage/dummy.dep    src/stage/week1.dep    src/stage/week2.dep    src/stage/week3.dep    src/stage/week4.dep    src/stage/week5.dep    src/stage/week6.dep    src/menu/menu.dep    src/menu/menuplayer.dep    src/menu/menuopponent.dep    src/character/bf.dep    src/character/bfweeb.dep    src/character/speaker.dep    src/character/dad.dep    src/character/spook.dep    src/character/monster.dep    src/character/monsterx.dep    src/character/pico.dep    src/character/mom.dep    src/character/xmasbf.dep    src/character/xmasgf.dep    src/character/xmasp.dep    src/character/senpai.dep    src/character/senpaim.dep    src/character/spirit.dep    src/character/gf.dep    src/character/gfweeb.dep    src/character/clucky.dep    src/object/object.dep    src/object/combo.dep    src/object/splash.dep    mips/common/crt0/crt0.dep
+# environment
+GO32 = DPMISTACK 1000000
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'Makefile', line 1)
+TARGET = funkin
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 8e09
+# makefile (from 'mips/common.mk', line 16)
+CXX = $(PREFIX)-g++
+# makefile (from 'mips/common.mk', line 15)
+CC = $(PREFIX)-gcc
+# makefile (from 'mips/common.mk', line 13)
+ROOTDIR := c:/psxfunkinproj/PSXFunkinSoupEngine/mips/
+# makefile (from 'mips/common.mk', line 45)
+CPPFLAGS_Coverage = -Os
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# 
+ variable set hash-table stats:
+# Load=117/1024=11%, Rehash=0, Collisions=34/366=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src/font (key c:/psxfunkinproj/PSXFunkinSoupEngine/src/font, mtime 1659093679): 8 files, 1 impossibilities.
+# src/character (key c:/psxfunkinproj/PSXFunkinSoupEngine/src/character, mtime 1659093694): 78 files, 18 impossibilities.
+# src (key c:/psxfunkinproj/PSXFunkinSoupEngine/src, mtime 1659093682): 25 files, 4 impossibilities.
+# . (key c:/psxfunkinproj/PSXFunkinSoupEngine, mtime 1659093696): 30 files, no impossibilities.
+# src/stage (key c:/psxfunkinproj/PSXFunkinSoupEngine/src/stage, mtime 1659093687): 30 files, 7 impossibilities.
+# src/object (key c:/psxfunkinproj/PSXFunkinSoupEngine/src/object, mtime 1659093695): 14 files, 3 impossibilities.
+# src/engine (key c:/psxfunkinproj/PSXFunkinSoupEngine/src/engine, mtime 1659093685): 62 files, 14 impossibilities.
+# src/menu (key c:/psxfunkinproj/PSXFunkinSoupEngine/src/menu, mtime 1659093688): 14 files, 3 impossibilities.
+# mips/common/crt0 (key c:/psxfunkinproj/PSXFunkinSoupEngine/mips/common/crt0, mtime 1659093695): 6 files, no impossibilities.
+
+# 267 files, 50 impossibilities in 9 directories.
+
+# Implicit Rules
+
+%.o: %.s
+#  recipe to execute (from 'mips/common.mk', line 68):
+	$(CC) $(ARCHFLAGS) -I$(ROOTDIR) -g -c -o $@ $<
+
+%.dep: %.c
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+%.dep: %.cpp
+#  recipe to execute (from 'mips/common.mk', line 74):
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+%.dep: %.cc
+#  recipe to execute (from 'mips/common.mk', line 77):
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+%.dep: %.s
+#  recipe to execute (from 'mips/common.mk', line 81):
+	touch $@
+
+# 5 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+src/menu/../font/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/timer.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-27 08:34:48
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/spook.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:03:32
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/xmasp.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:02:46
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/spirit.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:01:48
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/archive.dep: src/engine/archive.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/archive'
+#  Last modified 2022-07-29 08:19:01
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+funkin.ps-exe: funkin.elf
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/18=0%
+#  recipe to execute (from 'mips/common.mk', line 58):
+	$(PREFIX)-objcopy $(addprefix -R , $(OVERLAYSECTION)) -O binary $< $@
+	$(foreach ovl, $(OVERLAYSECTION), $(PREFIX)-objcopy -j $(ovl) -O binary $< $(BINDIR)Overlay$(ovl);)
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libmcrd.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:00
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week5.dep: src/stage/week5.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/week5'
+#  Last modified 2022-07-29 08:18:57
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/stage/week6.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:08:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stagedef_disc1.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-26 11:19:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/xmasp.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:05:57
+#  File has been updated.
+#  Successfully updated.
+
+src/font/font.dep: src/font/font.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/font/font'
+#  Last modified 2022-07-29 08:19:01
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:00
+#  File has been updated.
+#  Successfully updated.
+
+src/character/gf.o: src/character/gf.c src/character/gf.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h src/character/speaker.h src/character/../engine/gfx.h src/character/../engine/fixed.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:34
+#  File has been updated.
+#  Successfully updated.
+
+src/character/spook.dep: src/character/spook.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/spook'
+#  Last modified 2022-07-29 08:18:54
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/stage/week2.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:07:48
+#  File has been updated.
+#  Successfully updated.
+
+src/character/senpai.dep: src/character/senpai.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/senpai'
+#  Last modified 2022-07-29 08:18:50
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/tank.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:02:17
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/trans.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:08:57
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../object/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week4.dep: src/stage/week4.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/week4'
+#  Last modified 2022-07-29 08:18:58
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:00
+#  File has been updated.
+#  Successfully updated.
+
+src/character/gfweeb.dep: src/character/gfweeb.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/gfweeb'
+#  Last modified 2022-07-29 08:18:49
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:01
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/fixed.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/loadscr.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../debug.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:57:15
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../object/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/pad.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-27 08:34:32
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/debug.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:57:15
+#  File has been updated.
+#  Successfully updated.
+
+src/character/dad.dep: src/character/dad.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/dad'
+#  Last modified 2022-07-29 08:18:54
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/menu/../object/object.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:45
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/../stage.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/dad.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:00:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/mutil.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:12:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/animation.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/trans.o: src/engine/trans.c src/engine/trans.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/gfx.h src/engine/io.h src/engine/timer.h src/engine/fixed.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:19
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../stage.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/week4.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/splash.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:57:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/animation.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:52:02
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/senpaim.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:01:37
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:16:38
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../engine/pad.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/player.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/mutil.dep: src/engine/mutil.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/mutil'
+#  Last modified 2022-07-29 08:19:02
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/character/bfweeb.o: src/character/bfweeb.c src/character/bf.h src/character/../engine/player.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../engine/random.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:29
+#  File has been updated.
+#  Successfully updated.
+
+src/character/bfweeb.dep: src/character/bfweeb.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/bfweeb'
+#  Last modified 2022-07-29 08:18:55
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/debug.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:17:15
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/bfweeb.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:49
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/monsterx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:01:08
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/movie.o: src/engine/movie.c src/engine/movie.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:24
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/save.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:41
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/archive.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:11:58
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/mutil.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:12:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/random.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/character/gf.dep: src/character/gf.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/gf'
+#  Last modified 2022-07-29 08:18:50
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/engine/save.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:51
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/fixed.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../font/font.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:59
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week4.o: src/stage/week4.c src/stage/week4.h src/stage/../stage.h src/stage/../engine/io.h src/stage/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinp 
+roj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/stage/../engine/gfx.h src/stage/../engine/io.h src/stage/../engine/pad.h src/stage/../engine/fixed.h src/stage/../engine/character.h src/stage/../engine/gfx.h src/stage/../engine/fixed.h src/stage/../engine/animation.h src/stage/../engine/player.h src/stage/../engine/character.h src/stage/../object/object.h src/stage/../object/../psx.h src/stage/../font/font.h src/stage/../font/../engine/gfx.h src/stage/../engine/archive.h src/stage/../engine/mem.h src/stage/../engine/random.h src/stage/../engine/timer.h src/stage/../engine/animation.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:26
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../object/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/pad.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:18
+#  File has been updated.
+#  Successfully updated.
+
+src/character/xmasp.dep: src/character/xmasp.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/xmasp'
+#  Last modified 2022-07-29 08:18:51
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/stage/dummy.dep: src/stage/dummy.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/dummy'
+#  Last modified 2022-07-29 08:18:59
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/stage/dummy.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/mutil.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:12:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../object/object.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:45
+#  File has been updated.
+#  Successfully updated.
+
+src/character/monsterx.o: src/character/monsterx.c src/character/monsterx.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSo 
+upEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src 
+/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:31
+#  File has been updated.
+#  Successfully updated.
+
+src/character/spirit.o: src/character/spirit.c src/character/spirit.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/.. 
+/psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/l 
+ibsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memo 
+ry.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h 
+ src/character/../font/../engine/gfx.h src/character/../main.h src/character/../engine/random.h src/character/../engine/mutil.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:33
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:13
+#  File has been updated.
+#  Successfully updated.
+
+src/stage.dep: src/stage.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'sr 
+c/stage'
+#  Last modified 2022-07-29 08:19:00
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/../engine/io.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:28
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/io.dep: src/engine/io.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/io'
+#  Last modified 2022-07-29 08:19:00
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/stage/week2.dep: src/stage/week2.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/week2'
+#  Last modified 2022-07-29 08:18:58
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/object/../engine/timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/speaker.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:07:07
+#  File has been updated.
+#  Successfully updated.
+
+src/character/pico.dep: src/character/pico.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/pico'
+#  Last modified 2022-07-29 08:18:52
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/engine/pad.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/week6.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../engine/io.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:28
+#  File has been updated.
+#  Successfully updated.
+
+src/character/clucky.dep: src/character/clucky.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/clucky'
+#  Last modified 2022-07-29 08:18:49
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+mips/common.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+dep: src/main.dep src/engine/mutil.dep src/engine/random.dep src/engine/archive.dep src/font/font.dep src/engine/trans.dep src/engine/loadscr.dep src/engine/save.dep src/stage.dep src/debug.dep src/psx.dep src/engine/io.dep src/engine/gfx.dep src/engine/audio.dep src/engine/pad.dep src/engine/timer.dep src/engine/movie.dep src/engine/animation.dep src/engine/character.dep src/stage/dummy.dep src/stage/week1.dep src/stage/week2.dep src/stage/week3.dep src/stage/week4.dep src/stage/week5.dep src/stage/week6.dep src/menu/menu.dep src/menu/menuplayer.dep src/menu/menuopponent.dep src/character/bf.dep src/character/bfweeb.dep src/character/speaker.dep src/character/dad.dep src/character/spook.dep src/character/monster.dep src/character/monsterx.dep src/character/pico.dep src/character/mom.dep src/character/xmasbf.dep src/character/xmasgf.dep src/character/xmasp.dep src/character/senpai.dep src/character/senpaim.dep src/character/spirit.dep src/character/gf.dep src/character/gfweeb.dep src/character/clucky.dep src/object/object.dep src/object/combo.dep src/object/splash.dep mips/common/crt0/crt0.dep
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/random.o: src/engine/random.c src/engine/random.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../engine/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/io.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/mem.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../font/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:28
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/io.o: src/engine/io.c src/engine/io.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/mem.h src/engine/audio.h src/engine/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:22
+#  File has been updated.
+#  Successfully updated.
+
+src/character/senpaim.dep: src/character/senpaim.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/senpaim'
+#  Last modified 2022-07-29 08:18:50
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/object/combo.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:58:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/fixed.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/loadscr.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../engine/timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/dad.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:38
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/timer.o: src/engine/timer.c src/engine/timer.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/fixed.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:24
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week6.dep: src/stage/week6.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/week6'
+#  Last modified 2022-07-29 08:18:57
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/menu/../engine/archive.h:
+#  Implicit rule search has been 
+ done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/stage.o: src/stage.c src/stage.h src/engine/io.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/gfx.h src/engine/io.h src/engine/pad.h src/engine/fixed.h src/engine/character.h src/engine/gfx.h src/engine/fixed.h src/engine/animation.h src/engine/player.h src/engine/character.h src/object/object.h src/object/../psx.h src/font/font.h src/font/../engine/gfx.h src/engine/mem.h src/engine/timer.h src/engine/audio.h src/main.h src/engine/random.h src/engine/movie.h src/engine/save.h src/engine/../stage.h src/debug.h src/menu/menu.h src/menu/../stage.h src/engine/trans.h src/engine/loadscr.h src/object/combo.h src/object/object.h src/object/../stage.h src/object/splash.h src/character/bf.h src/character/../engine/player.h src/character/bfweeb.h src/character/dad.h src/character/../engine/character.h src/character/spook.h src/character/monster.h src/character/pico.h src/character/mom.h src/character/xmasbf.h src/character/xmasgf.h src/character/xmasp.h src/character/monsterx.h src/character/senpai.h src/character/senpaim.h src/character/spirit.h src/character/tank.h src/character/gf.h src/character/gfweeb.h src/character/clucky.h src/stage/dummy.h src/stage/../stage.h src/stage/week1.h src/stage/week2.h src/stage/week3.h src/stage/week4.h src/stage/week5.h src/stage/week6.h src/stagedef_disc1.h src/engine/audio_def.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:22
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/menuplayer.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:18:17
+#  File has been updated.
+#  Successfully updated.
+
+src/object/object.dep: src/object/object.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/object/object'
+#  Last modified 2022-07-29 08:18:49
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/mom.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:20
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/xmasbf.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:02:27
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/archive.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:28
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'mips/common.mk', line 91):
+	rm -f $(OBJS) $(BINDIR)Overlay.* $(BINDIR)*.elf $(BINDIR)*.ps-exe $(BINDIR)*.map $(DEPS)
+
+src/character/speaker.dep: src/character/speaker.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/speaker'
+#  Last modified 2022-07-29 08:18:54
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/font/font.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:12:57
+#  File has been updated.
+#  Successfully updated.
+
+src/character/bf.o: src/character/bf.c src/character/bf.h src/character/../engine/player.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../engine/random.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:29
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week1.dep: src/stage/week1.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/week1'
+#  Last modified 2022-07-29 08:18:58
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/engine/../engine/fixed.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../object/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/random.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:55:21
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/character.o: src/engine/character.c src/engine/character.h src/engine/io.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/gfx.h src/engine/fixed.h src/engine/animation.h src/engine/mem.h src/engine/../stage.h src/engine/../engine/io.h src/engine/../engine/gfx.h src/engine/../engine/pad.h src/engine/../engine/../psx.h src/engine/../engine/fixed.h src/engine/../engine/character.h src/engine/../engine/player.h src/engine/../engine/character.h src/engine/../object/object.h src/engine/../object/../psx.h src/engine/../font/font.h src/engine/../font/../engine/gfx.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+src/character/speaker.o: src/character/speaker.c src/character/speaker.h src/character/../engine/gfx.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/io.h src/character/../engine/fixed.h src/character/../engine/io.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../engine/timer.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:29
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/movie.dep: src/engine/movie.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/movie'
+#  Last modified 2022-07-29 08:18:59
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/engine/player.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/random.dep: src/engine/random.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/random'
+#  Last modified 2022-07-29 08:19:02
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/font/../engine/player.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/combo.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:15:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/animation.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:52:02
+#  File has been updated.
+#  Successfully updated.
+
+src/character/spook.o: src/character/spook.c src/character/spook.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/movie.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:10:27
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/splash.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:16:02
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/random.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:55:21
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../stage.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week5.o: src/stage/week5.c src/stage/week5.h src/stage/../stage.h src/stage/../engine/io.h src/stage/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/stage/../engine/gfx.h src/stage/../engine/io.h src/stage/../engine/pad.h src/stage/../engine/fixed.h src/stage/../engine/character.h src/stage/../engine/gfx.h src/stage/../engine/fixed.h src/stage/../engine/animation.h src/stage/../engine/player.h src/stage/../engine/character.h src/stage/../object/object.h src/stage/../object/../psx.h src/stage/../font/font.h src/stage/../font/../engine/gfx.h src/stage/../engine/archive.h src/stage/../engine/mem.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:26
+#  File has been updated.
+#  Successfully updated.
+
+mips/common/crt0/crt0.dep: mips/common/crt0/crt0.s
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'mips/common/crt0/crt0'
+#  Last modified 2022-07-29 08:18:47
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 81):
+	touch $@
+
+# Not a target:
+src/font/font.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:59
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/character/monster.dep: src/character/monster.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/monster'
+#  Last modified 2022-07-29 08:18:54
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/menu/menu.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:15:38
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../object/object.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:45
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/mutil.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:12:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../debug.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:57:15
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/dummy.o: src/stage/dummy.c src/stage/dummy.h src/stage/../stage.h src/stage/../engine/io.h src/stage/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/stage/../engine/gfx.h src/stage/../engine/io.h src/stage/../engine/pad.h src/stage/../engine/fixed.h src/stage/../engine/character.h src/stage/../engine/gfx.h src/stage/../engine/fixed.h src/stage/../engine/animation.h src/stage/../engine/player.h src/stage/../engine/character.h src/stage/../object/object.h src/stage/../object/../psx.h src/stage/../font/font.h src/stage/../font/../engine/gfx.h src/stage/../engine/mem.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:25
+#  File has been updated.
+#  Successfully updated.
+
+src/font/font.o: src/font/font.c src/font/font.h src/font/../engine/gfx.h src/font/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine 
+/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips 
+/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/font/../engine/io.h src/font/../engine/timer.h src/font/../engine/fixed.h src/font/../stage.h src/font/../engine/io.h src/font/../engine/gfx.h src/font/../engine/pad.h src/font/../engine/fixed.h src/font/../engine/character.h src/font/../engine/gfx.h src/font/../engine/animation.h src/font/../engine/player.h src/font/../engine/character.h src/font/../obj 
+ect/object.h src/font/../object/../psx.h src/font/../font/font.h src/font/font_arialmap.h src/font/font_cdrmap.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:19
+#  File has been updated.
+#  Successfully updated.
+
+src/character/senpai.o: src/character/senpai.c src/character/senpai.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/m 
+ips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:33
+#  File has been updated.
+#  Successfully updated.
+
+src/object/combo.dep: src/object/combo.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/object/combo'
+#  Last modified 2022-07-29 08:18:49
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/psx.o: src/psx.c src/psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:22
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/mem.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../engine/player.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:20:23
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/week3.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/loadscr.dep: src/engine/loadscr.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/loadscr'
+#  Last modified 2022-07-29 08:19:01
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/engine/../engine/animation.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:52:02
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/gfx.o: src/engine/gfx.c src/engine/gfx.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/io.h src/engine/mem.h src/engine/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:23
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/gfx.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:11:07
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/pad.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/character.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-17 09:57:11
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/dummy.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:07:31
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/gf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:33
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-22 10:49:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/object.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:57:33
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../engine/pad.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:18
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/pad.dep: src/engine/pad.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/pad'
+#  Last modified 2022-07-29 08:18:59
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/engine/gfx.dep: src/engine/gfx.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/gfx'
+#  Last modified 2022-07-29 08:19:00
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/debug.dep: src/debug.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/debug'
+#  Last modified 2022-07-29 08:19:00
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/monsterx.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:09
+#  File has been updated.
+#  Successfully updated.
+
+src/character/xmasp.o: src/character/xmasp.c src/character/xmasp.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:32
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/trans.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:16
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/senpai.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:03:59
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:01
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/character.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:11:19
+#  File has been updated.
+#  Successfully updated.
+
+mips/common/crt0/crt0.o: mips/common/crt0/crt0.s
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'mips/common/crt0/crt0'
+#  Last modified 2022-07-29 08:21:35
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 68):
+	$(CC) $(ARCHFLAGS) -I$(ROOTDIR) -g -c -o $@ $<
+
+src/object/splash.o: src/object/splash.c src/object/splash.h src/object/object.h src/object/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/object/../stage.h src/object/../engine/io.h src/object/../engine/../psx.h src/object/../engine/gfx.h src/object/../engine/io.h src/object/../engine/pad.h src/object/../engine/fixed.h src/object/../engine/character.h src/object/../engine/gfx.h src/object/../engine/fixed.h src/object/../engine/animation.h src/object/../engine/player.h src/object/../engine/character.h src/object/../object/object.h src/object/../font/font.h src/object/../font/../engine/gfx.h src/object/../engine/mem.h src/object/../engine/timer.h src/object/../engine/random.h src/object/../engine/mutil.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:35
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/bf.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:59:44
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/pico.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:05
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../stage.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-23 07:17:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../font/font.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:59
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../character/../engine/character.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-17 09:57:11
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/mutil.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:12:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/object.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:45
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/menu.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:18:33
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/archive.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/main.o: src/main.c src/main.h src/engine/timer.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/fixed.h src/engine/io.h src/engine/gfx.h src/engine/io.h src/engine/audio.h src/engine/pad.h src/menu/menu.h src/menu/../stage.h src/menu/../engine/io.h src/menu/../engine/gfx.h src/menu/../engine/pad.h src/menu/../engine/fixed.h src/menu/../engine/character.h src/menu/../engine/io.h src/menu/../engine/gfx.h src/menu/../engine/fixed.h src/menu/../engine/animation.h src/menu/../engine/../psx.h src/menu/../engine/player.h src/menu/../engine/character.h src/menu/../object/object.h src/menu/../object/../psx.h src/menu/../font/font.h src/menu/../font/../engine/gfx.h src/engine/save.h src/engine/../stage.h src/stage.h src/debug.h src/engine/fixed.h src/engine/character.h src/engine/player.h src/object/object.h src/font/font.h src/engine/mem.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/clucky.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:44
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week1.o: src/stage/week1.c src/stage/week1.h src/stage/../stage.h src/stage/../engine/io.h src/stage/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/stage/../engine/gfx.h src/stage/../engine/io.h src/stage/../engine/pad.h src/stage/../engine/fixed.h src/stage/../engine/character.h src/stage/../engine/gfx.h src/stage/../engine/fixed.h src/stage/../engine/animation.h src/stage/../engine/player.h src/stage/../engine/character.h src/stage/../object/object.h src/stage/../object/../psx.h src/stage/../font/font.h src/stage/../font/../engine/gfx.h src/stage/../engine/archive.h src/stage/../engine/mem.h src/stage/../debug.h src/stage/../stage.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../font/font.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:59
+#  File has been updated.
+#  Successfully updated.
+
+src/menu/menu.dep: src/menu/menu.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/menu/menu'
+#  Last modified 2022-07-29 08:18:57
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/font/../engine/io.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/audio.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:11:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/loadscr.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:10:46
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/xmasgf.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:02:35
+#  File has been updated.
+#  Successfully updated.
+
+src/character/monster.o: src/character/monster.c src/character/monster.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/ch 
+aracter/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:30
+#  File has been updated.
+#  Successfully updated.
+
+src/cha 
+racter/pico.o: src/character/pico.c src/character/pico.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngin 
+e/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mip 
+s/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/. 
+./engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:31
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/stage/../object/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/animation.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:52:02
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/archive.o: src/engine/archive.c src/engine/archive.h src/engine/io.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:19
+#  File has  
+been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/xmasgf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:03:16
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/senpai.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:01:28
+#  File has been updated.
+#  Successfully updated.
+
+all: dep funkin.ps-exe
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/18=0%
+
+src/character/xmasbf.dep: src/character/xmasbf.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/xmasbf'
+#  Last modified 2022-07-29 08:18:51
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/stage/../engine/fixed.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:50
+#  File has been updated.
+#  Successfully updated.
+
+src/character/spirit.dep: src/character/spirit.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/spirit'
+#  Last modified 2022-07-29 08:18:50
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/stage/week3.dep: src/stage/week3.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/stage/week3'
+#  Last modified 2022-07-29 08:18:58
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/engine/io.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/week1.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:07:40
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../stage.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/mem.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../object/object.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:45
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/random.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:55:21
+#  File has been updated.
+#  Successfully updated.
+
+src/menu/menuplayer.dep: src/menu/menuplayer.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/menu/menuplayer'
+#  Last modified 2022-07-29 08:18:56
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/debug.o: src/debug.c src/debug.h src/engine/io.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/gfx.h src/engine/io.h src/engine/pad.h src/stage.h src/engine/fixed.h src/engine/character.h src/engine/gfx.h src/engine/fixed.h src/engine/animation.h src/engine/player.h src/engine/character.h src/object/object.h src/object/../psx.h src/font/font.h src/font/../engine/gfx.h src/engine/mem.h src/engine/timer.h src/engine/audio.h src/main.h src/engine/random.h src/engine/movie.h src/menu/menu.h src/menu/../stage.h src/engine/trans.h src/engine/loadscr.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:22
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/font_arialmap.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../font/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+src/character/clucky.o: src/character/clucky.c src/character/clucky.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:34
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/trans.dep: src/engine/trans.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/trans'
+#  Last modified 2022-07-29 08:19:01
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/object/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/mem.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/random.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:55:21
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/character.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-17 09:57:11
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/week4.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:08:02
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/save.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:41
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/mutil.o: src/engine/mutil.c src/engine/mutil.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/fixed.h src/engine/timer.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:18
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week3.o: src/stage/week3.c src/stage/week3.h src/stage/../stage.h src/stage/../engine/io.h src/stage/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/stage/../engine/gfx.h src/stage/../engine/io.h src/stage/../engine/pad.h src/stage/../engine/fixed.h src/stage/../engine/character.h src/stage/../engine/gfx.h src/stage/../engine/fixed.h src/stage/../engine/animation.h src/stage/../engine/player.h src/stage/../engine/character.h src/stage/../object/object.h src/stage/../object/../psx.h src/stage/../font/font.h src/stage/../font/../engine/gfx.h src/stage/../engine/mem.h src/stage/../engine/archive.h src/stage/../engine/random.h src/stage/../engine/timer.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:26
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/io.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/random.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:55:21
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-22 10:49:54
+#  File has been updated.
+#  Successfully updated.
+
+src/menu/menuopponent.o: src/menu/menuopponent.c src/menu/menuopponent.h src/menu/../engine/character.h src/menu/../engine/io.h src/menu/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/menu/../engine/gfx.h src/menu/../engine/fixed.h src/menu/../engine/animation.h src/menu/../engine/mem.h src/menu/../engine/archive.h src/menu/../stage.h src/menu/../engine/io.h src/menu/../engine/gfx.h src/menu/../engine/pad.h src/menu/../engine/fixed.h src/menu/../engine/character.h src/menu/../engine/player.h src/menu/../engine/character.h src/menu/../object/object.h src/menu/../object/../psx.h src/menu/../font/font.h src/menu/../font/../engine/gfx.h src/menu/../engine/random.h src/menu/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:28
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/character.dep: src/engine/character.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/character'
+#  Last modified 2022-07-29 08:18:59
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/clucky.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:00:03
+#  File has been updated.
+#  Successfully updated.
+
+src/character/senpaim.o: src/character/senpaim.c src/character/senpaim.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:33
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/pad.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/fixed.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/audio_def.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-22 11:10:55
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/monster.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:16
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../font/font.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:59
+#  File has been updated.
+#  Successfully updated.
+
+src/main.dep: src/main.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/main'
+#  Last modified 2022-07-29 08:21:16
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/menu/menuplayer.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:17:54
+#  File has been updated.
+#  Successfully updated.
+
+src/character/bf.dep: src/character/bf.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/bf'
+#  Last modified 2022-07-29 08:18:56
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/bfweeb.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:59:55
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/character.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-17 09:57:11
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/timer.dep: src/engine/timer.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/timer'
+#  Last modified 2022-07-29 08:18:59
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/stage/week2.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/io.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:10:58
+#  File has 
+ been updated.
+#  Successfully updated.
+
+src/character/mom.dep: src/character/mom.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/mom'
+#  Last modified 2022-07-29 08:18:51
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/font/../engine/fixed.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:50
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/pad.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../engine/character.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-17 09:57:11
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h:
+#  Implicit rule sea 
+rch has been done.
+#  Last modified 2020-06-27 00:48:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/week5.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/character.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-17 09:57:11
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/save.o: src/engine/save.c src/engine/save.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/../stage.h src/engine/../engine/io.h src/engine/../engine/../psx.h src/engine/../engine/gfx.h src/engine/../engine/io.h src/engine/../engine/pad.h src/engine/../engine/fixed.h src/engine/../engine/character.h src/engine/../engine/gfx.h src/engine/../engine/fixed.h src/engine/../engine/animation.h src/engine/../engine/player.h src/engine/../engine/character.h src/engine/../object/object.h src/engine/../object/../psx.h src/engine/../font/font.h src/engine/../font/../engine/gfx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libmcrd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:20
+#  File has been updated.
+#  Successfully updated.
+
+src/object/object.o: src/object/object.c src/object/object.h src/object/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/object/../engine/mem.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:35
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/player.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/psx.dep: src/psx.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/psx'
+#  Last modified 2022-07-29 08:19:00
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/menu/../engine/trans.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:08:57
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/animation.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:52:02
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/timer.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:09:28
+#  File has been updated.
+#  Successfully updated.
+
+src/menu/menuopponent.dep: src/menu/menuopponent.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/menu/menuopponent'
+#  Last modified 2022-07-29 08:18:56
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+src/engine/loadscr.o: src/engine/loadscr.c src/engine/loadscr.h src/engine/gfx.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/io.h src/engine/timer.h src/engine/fixed.h src/engine/audio.h src/engine/trans.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:20
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../font/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+mips/common/crt0/crt0.s:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/menuopponent.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:52:17
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../object/object.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:45
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week6.o: src/stage/week6.c src/stage/week6.h src/stage/../stage.h src/stage/../engine/io.h src/stage/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/stage/../engine/gfx.h src/stage/../engine/io.h src/stage/../engine/pad.h src/stage/../engine/fixed.h src/stage/../engine/character.h src/stage/../engine/gfx.h src/stage/../engine/fixed.h src/stage/../engine/animation.h src/stage/../engine/player.h src/stage/../engine/character.h src/stage/../object/object.h src/stage/../object/../psx.h src/stage/../font/font.h src/stage/../font/../engine/gfx.h src/stage/../engine/archive.h src/stage/../engine/mem.h src/stage/../engine/mutil.h src/stage/../engine/timer.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:27
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/movie.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-27 08:35:37
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/archive.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../engine/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/mem.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/audio.o: src/engine/audio.c src/engine/audio.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/io.h src/engine/../main.h src/engine/audio_def.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:23
+#  File has been updated.
+#  Successfully updated.
+
+src/character/xmasbf.o: src/character/xmasbf.c src/character/xmasbf.h src/character/../engine/player.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../engine/random.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:32
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../stage.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/player.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/audio.dep: src/engine/audio.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/audio'
+#  Last modified 2022-07-29 08:19:00
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/../stage.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:53:42
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/save.dep: src/engine/save.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/save'
+#  Last modified 2022-07-29 08:19:01
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/character/monster.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:00:59
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/speaker.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:07:14
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:01
+#  File has been updated.
+#  Successfully updated.
+
+src/object/splash.dep: src/object/splash.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/object/splash'
+#  Last modified 2022-07-29 08:18:48
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/font/font_cdrmap.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:36:51
+#  File has been updated.
+#  Successfully updated.
+
+src/character/monsterx.dep: src/character/monsterx.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/monsterx'
+#  Last modified 2022-07-29 08:18:53
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/engine/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-22 10:49:54
+#  File has been updated.
+#  Successfully updated.
+
+src/object/combo.o: src/object/combo.c src/object/combo.h src/object/object.h src/object/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/object/../stage.h src/object/../engine/io.h src/object/../engine 
+/../psx.h src/object/../engine/gfx.h src/object/../engine/io.h src/object/../engine/pad.h src/object/../engine/fixed.h src/object/../engine/character.h src/object/../engine/gfx.h src/object/../engine/fixed.h src/object/../engine/animation.h src/object/../engine/player.h src/object/../engine/character.h src/object/../object/object.h src/object/../font/font.h src/object/../font/../engine/gfx.h src/object/../engine/mem.h src/object/../engine/timer.h src/object/../engine/random.h
+#  Implicit rule search has bee 
+n done.
+#  Last modified 2022-07-29 08:21:35
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:01
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/senpaim.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:03:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/audio.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:11:37
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../main.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-22 10:49:54
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/gfweeb.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:00:37
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/../font/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:01
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/psx.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-27 08:34:37
+#  File has been updated.
+#  Successfully updated.
+
+src/stage/week2.o: src/stage/week2.c src/stage/week2.h src/stage/../stage.h src/stage/../engine/io.h src/stage/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/stage/../engine/gfx.h src/stage/../engine/io.h src/stage/../engine/pad.h src/stage/../engine/fixed.h src/stage/../engine/character.h src/stage/../engine/gfx.h src/stage/../engine/fixed.h src/stage/../engine/animation.h src/stage/../engine/player.h src/stage/../engine/character.h src/stage/../object/object.h src/stage/../object/../psx.h src/stage/../font/font.h src/stage/../font/../engine/gfx.h src/stage/../engine/mem.h src/stage/../engine/archive.h src/stage/../engine/timer.h src/stage/../engine/random.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../font/font.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:59
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/mom.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:00:46
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/spook.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:01:57
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/../engine/gfx.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:42
+#  File has been updated.
+#  Successfully updated.
+
+src/menu/menuplayer.o: src/menu/menuplayer.c src/menu/menuplayer.h src/menu/../engine/player.h src/menu/../engine/character.h src/menu/../engine/io.h src/menu/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/menu/../engine/gfx.h src/menu/../engine/fixed.h src/menu/../engine/animation.h src/menu/../engine/mem.h src/menu/../engine/archive.h src/menu/../stage.h src/menu/../engine/io.h src/menu/../engine/gfx.h src/menu/../engine/pad.h src/menu/../engine/fixed.h src/menu/../engine/character.h src/menu/../engine/player.h src/menu/../object/object.h src/menu/../object/../psx.h src/menu/../font/font.h src/menu/../font/../engine/gfx.h src/menu/../engine/random.h src/menu/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/engine/mutil.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/../engine/animation.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:52:02
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/pad.o: src/engine/pad.c src/engine/pad.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:24
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:01
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../font/font.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:59
+#  File has been updated.
+#  Successfully updated.
+
+src/character/xmasgf.dep: src/character/xmasgf.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/character/xmasgf'
+#  Last modified 2022-07-29 08:18:51
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/engine/character.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-17 09:57:11
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/week3.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:07:54
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: clean dep all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/engine/animation.o: src/engine/animation.c src/engine/animation.h src/engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/engine/fixed.h src/engine/timer.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:24
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../character/gf.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:00:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/pico.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:01:18
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/player.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/menuopponent.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:50:13
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/bf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:57
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../engine/character.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-17 09:57:11
+#  File has been updated.
+#  Successfully updated.
+
+src/character/mom.o: src/character/mom.c src/character/mom.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h src/character/../engine/timer.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:31
+#  File has been updated.
+#  Successfully updated.
+
+src/engine/animation.dep: src/engine/animation.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'src/engine/animation'
+#  Last modified 2022-07-29 08:18:59
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'mips/common.mk', line 71):
+	$(CC) $(CPPFLAGS) $(CFLAGS) -M -MT $(addsuffix .o, $(basename $@)) -MF $@ $<
+
+# Not a target:
+src/stage/week5.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:08:07
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/menu/../engine/audio.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:11:28
+#  File has been updated.
+#  Successfully updated.
+
+funkin.elf: src/main.o src/engine/mutil.o src/engine/random.o src/engine/archive.o src/font/font.o src/engine/trans.o src/engine/loadscr.o src/engine/save.o src/stage.o src/debug.o src/psx.o src/engine/io.o src/engine/gfx.o src/engine/audio.o src/engine/pad.o src/engine/timer.o src/engine/movie.o src/engine/animation.o src/engine/character.o src/stage/dummy.o src/stage/week1.o src/stage/week2.o src/stage/week3.o src/stage/week4.o src/stage/week5.o src/stage/week6.o src/menu/menu.o src/menu/menuplayer.o src/menu/menuopponent.o src/character/bf.o src/character/bfweeb.o src/character/speaker.o src/character/dad.o src/character/spook.o src/character/monster.o src/character/monsterx.o src/character/pico.o src/character/mom.o src/character/xmasbf.o src/character/xmasgf.o src/character/xmasp.o src/character/senpai.o src/character/senpaim.o src/character/spirit.o src/character/gf.o src/character/gfweeb.o src/character/clucky.o src/object/object.o src/object/combo.o src/object/splash.o mips/common/crt0/crt0.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := funkin.elf
+# automatic
+# * := 
+# automatic
+# < := src/main.o
+# automatic
+# + := src/main.o src/engine/mutil.o src/engine/random.o src/engine/archive.o src/font/font.o src/engine/trans.o src/engine/loadscr.o src/engine/save.o src/stage.o src/debug.o src/psx.o src/engine/io.o src/engine/gfx.o src/engine/audio.o src/engine/pad.o src/engine/timer.o src/engine/movie.o src/engine/animation.o src/engine/character.o src/stage/dummy.o src/stage/week1.o src/stage/week2.o src/stage/week3.o src/stage/week4.o src/stage/week5.o src/stage/week6.o src/menu/menu.o src/menu/menuplayer.o src/menu/menuopponent.o src/character/bf.o src/character/bfweeb.o src/character/speaker.o src/character/dad.o src/character/spook.o src/character/monster.o src/character/monsterx.o src/character/pico.o src/character/mom.o src/character/xmasbf.o src/character/xmasgf.o src/character/xmasp.o src/character/senpai.o src/character/senpaim.o src/character/spirit.o src/character/gf.o src/character/gfweeb.o src/character/clucky.o src/object/object.o src/object/combo.o src/object/splash.o mips/common/crt0/crt0.o
+# automatic
+# % := 
+# automatic
+# ^ := src/main.o src/engine/mutil.o src/engine/random.o src/engine/archive.o src/font/font.o src/engine/trans.o src/engine/loadscr.o src/engine/save.o src/stage.o src/debug.o src/psx.o src/engine/io.o src/engine/gfx.o src/engine/audio.o src/engine/pad.o src/engine/timer.o src/engine/movie.o src/engine/animation.o src/engine/character.o src/stage/dummy.o src/stage/week1.o src/stage/week2.o src/stage/week3.o src/stage/week4.o src/stage/week5.o src/stage/week6.o src/menu/menu.o src/menu/menuplayer.o src/menu/menuopponent.o src/character/bf.o src/character/bfweeb.o src/character/speaker.o src/character/dad.o src/character/spook.o src/character/monster.o src/character/monsterx.o src/character/pico.o src/character/mom.o src/character/xmasbf.o src/character/xmasgf.o src/character/xmasp.o src/character/senpai.o src/character/senpaim.o src/character/spirit.o src/character/gf.o src/character/gfweeb.o src/character/clucky.o src/object/object.o src/object/combo.o src/object/splash.o mips/common/crt0/crt0.o
+# automatic
+# ? := src/main.o src/engine/mutil.o src/engine/random.o src/engine/archive.o src/font/font.o src/engine/trans.o src/engine/loadscr.o src/engine/save.o src/stage.o src/debug.o src/psx.o src/engine/io.o src/engine/gfx.o src/engine/audio.o src/engine/pad.o src/engine/timer.o src/engine/movie.o src/engine/animation.o src/engine/character.o src/stage/dummy.o src/stage/week1.o src/stage/week2.o src/stage/week3.o src/stage/week4.o src/stage/week5.o src/stage/week6.o src/menu/menu.o src/menu/menuplayer.o src/menu/menuopponent.o src/character/bf.o src/character/bfweeb.o src/character/speaker.o src/character/dad.o src/character/spook.o src/character/monster.o src/character/monsterx.o src/character/pico.o src/character/mom.o src/character/xmasbf.o src/character/xmasgf.o src/character/xmasp.o src/character/senpai.o src/character/senpaim.o src/character/spirit.o src/character/gf.o src/character/gfweeb.o src/character/clucky.o src/object/object.o src/object/combo.o src/object/splash.o mips/common/crt0/crt0.o
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=14/26=54%
+#  recipe to execute (from 'mips/common.mk', line 65):
+	$(CC) -g -o $(BINDIR)$(TARGET).elf $(OBJS) $(LDFLAGS)
+
+# Not a target:
+src/object/../object/object.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:54:45
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/gfweeb.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:04:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/spirit.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:03:47
+#  File has been updated.
+#  Successfully updated.
+
+src/character/xmasgf.o: src/character/xmasgf.c src/character/xmasgf.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h src/character/speaker.h src/character/../engine/gfx.h src/character/../engine/fixed.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:32
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/io.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:51:28
+#  File has been updated.
+#  Successfully updated.
+
+src/character/dad.o: src/character/dad.c src/character/dad.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/stage/week1.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+src/menu/menu.o: src/menu/menu.c src/menu/menu.h src/menu/../stage.h src/menu/../engine/io.h src/menu/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/menu/../engine/gfx.h src/menu/../engine/io.h src/menu/../engine/pad.h src/menu/../engine/fixed.h src/menu/../engine/character.h src/menu/../engine/gfx.h src/menu/../engine/fixed.h src/menu/../engine/animation.h src/menu/../engine/player.h src/menu/../engine/character.h src/menu/../object/object.h src/menu/../object/../psx.h src/menu/../font/font.h src/menu/../font/../engine/gfx.h src/menu/../engine/mem.h src/menu/../main.h src/menu/../engine/timer.h src/menu/../engine/io.h src/menu/../engine/gfx.h src/menu/../engine/audio.h src/menu/../engine/pad.h src/menu/../engine/archive.h src/menu/../engine/mutil.h src/menu/../font/font.h src/menu/../engine/trans.h src/menu/../engine/loadscr.h src/menu/../engine/save.h src/menu/../engine/../stage.h src/menu/../debug.h src/menu/../stage.h src/menu/../character/gf.h src/menu/../character/../engine/character.h src/menu/menuplayer.h src/menu/../engine/player.h src/menu/menuopponent.h src/menu/../engine/character.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:28
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/font/../engine/animation.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 07:52:02
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/xmasbf.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:03:09
+#  File has been updated.
+#  Successfully updated.
+
+src/character/gfweeb.o: src/character/gfweeb.c src/character/gf.h src/character/../engine/character.h src/character/../engine/io.h src/character/../engine/../psx.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/sys/types.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stdio.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgte.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libgpu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libspu.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libcd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libsnd.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libapi.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/kernel.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/r3000.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/asm.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/stddef.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/string.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/strings.h C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/memory.h src/character/../engine/gfx.h src/character/../engine/fixed.h src/character/../engine/animation.h src/character/../engine/mem.h src/character/../engine/archive.h src/character/../stage.h src/character/../engine/io.h src/character/../engine/gfx.h src/character/../engine/pad.h src/character/../engine/fixed.h src/character/../engine/character.h src/character/../engine/player.h src/character/../engine/character.h src/character/../object/object.h src/character/../object/../psx.h src/character/../font/font.h src/character/../font/../engine/gfx.h src/character/../main.h src/character/speaker.h src/character/../engine/gfx.h src/character/../engine/fixed.h
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:21:34
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/character/gf.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-29 08:00:25
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/object/../engine/../psx.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-24 13:25:36
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+C:/psxfunkinproj/PSXFunkinSoupEngine/mips/psyq/include/libetc.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-06-27 00:48:01
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=348/1024=34%, Rehash=0, Collisions=500/2619=19%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 2 (1) / strings = 764 / storage = 13303 B / avg = 17 B
+# current buf: size = 8162 B / used = 5155 B / count = 410 / avg = 12 B
+# other used: total = 8148 B / count = 354 / avg = 23 B
+# other free: total = 14 B / max = 14 B / min = 14 B / avg = 14 B
+
+# strcache performance: lookups = 2713 / hit rate = 71%
+# hash-table stats:
+# Load=764/8192=9%, Rehash=0, Collisions=51/2713=2%
+# Finished Make data base on Fri Jul 29 08:21:54 2022
+
+ 

@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "pad.h": "c",
+        "movie.h": "c",
+        "stage.h": "c",
+        "random.h": "c",
+        "mem.h": "c",
+        "psx.h": "c",
+        "gfx.h": "c",
+        "fixed.h": "c",
+        "character.h": "c",
+        "player.h": "c",
+        "timer.h": "c",
+        "mutil.h": "c",
+        "io.h": "c",
+        "audio.h": "c",
+        "save.h": "c",
+        "archive.h": "c",
+        "main.h": "c",
+        "animation.h": "c",
+        "debug.h": "c",
+        "trans.h": "c",
+        "loadscr.h": "c",
+        "font.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}
