@@ -6,10 +6,10 @@
 
 #include "splash.h"
 
-#include "../engine/mem.h"
-#include "../engine/timer.h"
-#include "../engine/random.h"
-#include "../engine/mutil.h"
+#include "../mem.h"
+#include "../timer.h"
+#include "../random.h"
+#include "../mutil.h"
 
 //Splash object functions
 boolean Obj_Splash_Tick(Object *obj)

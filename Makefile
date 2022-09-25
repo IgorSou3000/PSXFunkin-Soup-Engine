@@ -2,26 +2,24 @@ TARGET = funkin
 TYPE = ps-exe
 
 SRCS = src/main.c \
-       src/engine/mutil.c \
-       src/engine/random.c \
-       src/engine/archive.c \
-       src/font/font.c \
-       src/engine/trans.c \
-       src/engine/loadscr.c \
-       src/engine/save.c \
+       src/mutil.c \
+       src/random.c \
+       src/archive.c \
+       src/font.c \
+       src/trans.c \
+       src/loadscr.c \
+       src/save.c \
        src/stage.c \
        src/debug.c \
        src/psx.c \
-       src/engine/io.c \
-       src/engine/gfx.c \
-       src/engine/audio.c \
-       src/engine/pad.c \
-       src/engine/timer.c \
-       src/engine/movie.c \
-       src/engine/animation.c \
-       src/engine/character.c \
-       \
-       \
+       src/io.c \
+       src/gfx.c \
+       src/audio.c \
+       src/pad.c \
+       src/timer.c \
+       src/movie.c \
+       src/animation.c \
+       src/character.c \
        src/stage/dummy.c \
        src/stage/week1.c \
        src/stage/week2.c \
@@ -29,13 +27,9 @@ SRCS = src/main.c \
        src/stage/week4.c \
        src/stage/week5.c \
        src/stage/week6.c \
-       \
-       \
-       src/menu/menu.c \
-       src/menu/menuplayer.c \
-       src/menu/menuopponent.c \
-       \
-       \
+       src/menu.c \
+       src/menuplayer.c \
+       src/menuopponent.c \
        src/character/bf.c \
        src/character/bfweeb.c \
        src/character/speaker.c \
@@ -54,8 +48,6 @@ SRCS = src/main.c \
        src/character/gf.c \
        src/character/gfweeb.c \
        src/character/clucky.c \
-       \
-       \
        src/object/object.c \
        src/object/combo.c \
        src/object/splash.c \

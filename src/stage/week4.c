@@ -6,12 +6,12 @@
 
 #include "week4.h"
 
-#include "../engine/archive.h"
-#include "../engine/mem.h"
+#include "../archive.h"
+#include "../mem.h"
 #include "../stage.h"
-#include "../engine/random.h"
-#include "../engine/timer.h"
-#include "../engine/animation.h"
+#include "../random.h"
+#include "../timer.h"
+#include "../animation.h"
 
 //Week 4 background structure
 typedef struct

@@ -6,10 +6,10 @@
 
 #include "week3.h"
 
-#include "../engine/mem.h"
-#include "../engine/archive.h"
-#include "../engine/random.h"
-#include "../engine/timer.h"
+#include "../mem.h"
+#include "../archive.h"
+#include "../random.h"
+#include "../timer.h"
 
 //Week 3 background structure
 typedef struct

@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_SPOOK_H
 #define PSXF_GUARD_SPOOK_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Spook character functions
 Character *Char_Spook_New(fixed_t x, fixed_t y);

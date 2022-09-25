@@ -6,10 +6,10 @@
 
 #include "xmasbf.h"
 
-#include "../engine/mem.h"
-#include "../engine/archive.h"
+#include "../mem.h"
+#include "../archive.h"
 #include "../stage.h"
-#include "../engine/random.h"
+#include "../random.h"
 #include "../main.h"
 
 //Boyfriend skull fragments

@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_XMASGF_H
 #define PSXF_GUARD_XMASGF_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Xmas GF character functions
 Character *Char_XmasGF_New(fixed_t x, fixed_t y);

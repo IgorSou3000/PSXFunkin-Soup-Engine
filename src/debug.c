@@ -5,17 +5,17 @@
 */
 #include "debug.h"
 
-#include "engine/mem.h"
-#include "engine/timer.h"
-#include "engine/audio.h"
-#include "engine/pad.h"
+#include "mem.h"
+#include "timer.h"
+#include "audio.h"
+#include "pad.h"
 #include "main.h"
-#include "engine/random.h"
-#include "engine/movie.h"
+#include "random.h"
+#include "movie.h"
 
-#include "menu/menu.h"
-#include "engine/trans.h"
-#include "engine/loadscr.h"
+#include "menu.h"
+#include "trans.h"
+#include "loadscr.h"
 
 //Debug state
 Debug debug;

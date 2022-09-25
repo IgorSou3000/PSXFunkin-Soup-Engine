@@ -6,11 +6,11 @@
 
 #include "mom.h"
 
-#include "../engine/mem.h"
-#include "../engine/archive.h"
+#include "../mem.h"
+#include "../archive.h"
 #include "../stage.h"
 #include "../main.h"
-#include "../engine/timer.h"
+#include "../timer.h"
 
 //Mom character structure
 enum

@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_SPIRIT_H
 #define PSXF_GUARD_SPIRIT_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Spirit character functions
 Character *Char_Spirit_New(fixed_t x, fixed_t y);

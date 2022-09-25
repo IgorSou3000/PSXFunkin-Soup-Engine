@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_CLUCKY_H
 #define PSXF_GUARD_CLUCKY_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Clucky character functions
 Character *Char_Clucky_New(fixed_t x, fixed_t y);

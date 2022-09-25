@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_MONSTER_H
 #define PSXF_GUARD_MONSTER_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Monster character functions
 Character *Char_Monster_New(fixed_t x, fixed_t y);

@@ -6,7 +6,7 @@
 
 #include "dummy.h"
 
-#include "../engine/mem.h"
+#include "../mem.h"
 
 //Dummy background structure
 typedef struct

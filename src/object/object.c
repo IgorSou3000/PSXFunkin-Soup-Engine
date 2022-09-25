@@ -6,7 +6,7 @@
 
 #include "object.h"
 
-#include "../engine/mem.h"
+#include "../mem.h"
 
 //Object functions
 void ObjectList_Add(ObjectList *list, Object *obj)

@@ -7,16 +7,17 @@
 #ifndef PSXF_GUARD_STAGE_H
 #define PSXF_GUARD_STAGE_H
 
-#include "engine/io.h"
-#include "engine/gfx.h"
-#include "engine/pad.h"
+#include "io.h"
+#include "gfx.h"
+#include "pad.h"
 
-#include "engine/fixed.h"
-#include "engine/character.h"
-#include "engine/player.h"
+#include "fixed.h"
+#include "character.h"
+#include "player.h"
+#include "audio.h"
 #include "object/object.h"
 
-#include "font/font.h"
+#include "font.h"
 
 //Stage constants
 #define INPUT_LEFT  (PAD_LEFT  | PAD_SQUARE | PAD_L1)
@@ -26,7 +27,7 @@
 
 #define STAGE_FLAG_JUST_STEP     (1 << 0) //Song just stepped this frame
 #define STAGE_FLAG_VOCAL_ACTIVE  (1 << 1) //Song's vocal track is currently active
-#define STAGE_FLAG_SCORE_REFRESH (1 << 2) //Score text should be refreshed
+#define STAGE_FLAG_PAUSED 			 (1 << 2) //Game is paused
 
 #define STAGE_LOAD_PLAYER     (1 << 0) //Reload player character
 #define STAGE_LOAD_OPPONENT   (1 << 1) //Reload opponent character
@@ -190,6 +191,10 @@ typedef struct
 
 	//Fonts
 	FontData font_bold, font_cdr;
+
+	//Sounds Effects
+	sound_t sounds[10]; 
+	sound_t intro_sfx[4];
 	
 	//HUD textures
 	Gfx_Tex tex_hud0, tex_hud1, tex_hude;
@@ -197,9 +202,6 @@ typedef struct
 	//Notes stuff
 	fixed_t note_x[8];
 	fixed_t note_y[8];
-
-	//Sounds Effects
-	u32 sounds[10];
 	
 	//Stage data
 	const StageDef *stage_def;

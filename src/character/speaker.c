@@ -6,9 +6,9 @@
 
 #include "speaker.h"
 
-#include "../engine/io.h"
+#include "../io.h"
 #include "../stage.h"
-#include "../engine/timer.h"
+#include "../timer.h"
 
 //Speaker functions
 void Speaker_Init(Speaker *this)

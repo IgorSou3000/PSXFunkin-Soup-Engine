@@ -7,8 +7,8 @@
 #ifndef PSXF_GUARD_SPEAKER_H
 #define PSXF_GUARD_SPEAKER_H
 
-#include "../engine/gfx.h"
-#include "../engine/fixed.h"
+#include "../gfx.h"
+#include "../fixed.h"
 
 //Speaker structure
 typedef struct

@@ -6,12 +6,12 @@
 
 #include "spirit.h"
 
-#include "../engine/mem.h"
-#include "../engine/archive.h"
+#include "../mem.h"
+#include "../archive.h"
 #include "../stage.h"
 #include "../main.h"
-#include "../engine/random.h"
-#include "../engine/mutil.h"
+#include "../random.h"
+#include "../mutil.h"
 
 //Dad character structure
 enum

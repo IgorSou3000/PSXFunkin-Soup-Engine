@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_MONSTERX_H
 #define PSXF_GUARD_MONSTERX_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Xmas Monster character functions
 Character *Char_MonsterX_New(fixed_t x, fixed_t y);

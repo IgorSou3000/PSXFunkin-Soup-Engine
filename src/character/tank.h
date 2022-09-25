@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_TANK_H
 #define PSXF_GUARD_TANK_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Tank character functions
 Character *Char_Tank_New(fixed_t x, fixed_t y);

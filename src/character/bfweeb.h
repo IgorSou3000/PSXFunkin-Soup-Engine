@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_BFWEEB_H
 #define PSXF_GUARD_BFWEEB_H
 
-#include "../engine/player.h"
+#include "../player.h"
 
 //Boyfriend Weeb player functions
 Character *Char_BFWeeb_New(fixed_t x, fixed_t y);

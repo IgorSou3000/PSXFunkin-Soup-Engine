@@ -6,8 +6,8 @@
 
 #include "week1.h"
 
-#include "../engine/archive.h"
-#include "../engine/mem.h"
+#include "../archive.h"
+#include "../mem.h"
 #include "../stage.h"
 #include "../debug.h"
 

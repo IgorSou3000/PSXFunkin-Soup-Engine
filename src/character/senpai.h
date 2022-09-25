@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_SENPAI_H
 #define PSXF_GUARD_SENPAI_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Senpai character functions
 Character *Char_Senpai_New(fixed_t x, fixed_t y);

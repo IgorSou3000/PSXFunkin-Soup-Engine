@@ -6,14 +6,14 @@
 
 #include "main.h"
 
-#include "engine/timer.h"
-#include "engine/io.h"
-#include "engine/gfx.h"
-#include "engine/audio.h"
-#include "engine/pad.h"
+#include "timer.h"
+#include "io.h"
+#include "gfx.h"
+#include "audio.h"
+#include "pad.h"
 
-#include "menu/menu.h"
-#include "engine/save.h"
+#include "menu.h"
+#include "save.h"
 #include "stage.h"
 #include "debug.h"
 
@@ -41,7 +41,7 @@ void ErrorLock(void)
 //#define MEM_STAT //This will enable the Mem_GetStat function which returns information about available memory in the heap
 
 #define MEM_IMPLEMENTATION
-#include "engine/mem.h"
+#include "mem.h"
 #undef MEM_IMPLEMENTATION
 
 #ifndef PSXF_STDMEM

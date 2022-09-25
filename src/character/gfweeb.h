@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_GFWEEB_H
 #define PSXF_GUARD_GFWEEB_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //GF Weeb character functions
 Character *Char_GFWeeb_New(fixed_t x, fixed_t y);

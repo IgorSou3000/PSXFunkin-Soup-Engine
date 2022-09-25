@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_XMASBF_H
 #define PSXF_GUARD_XMASBF_H
 
-#include "../engine/player.h"
+#include "../player.h"
 
 //Christmas Boyfriend player functions
 Character *Char_XmasBF_New(fixed_t x, fixed_t y);

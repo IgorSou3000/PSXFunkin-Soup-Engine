@@ -223,21 +223,21 @@
 			<dir name = "sounds">
 
 				<!-- Menu Sounds -->
-				<file name = "scroll.vag" type = "data" source = "iso/sounds/menu/scroll.vag"/>
-				<file name = "confirm.vag" type = "data" source = "iso/sounds/menu/confirm.vag"/>
-				<file name = "cancel.vag" type = "data" source = "iso/sounds/menu/cancel.vag"/>
+				<file name = "scroll.sfx" type = "data" source = "iso/sounds/menu/scroll.ogg.sfx"/>
+				<file name = "confirm.sfx" type = "data" source = "iso/sounds/menu/confirm.ogg.sfx"/>
+				<file name = "cancel.sfx" type = "data" source = "iso/sounds/menu/cancel.ogg.sfx"/>
 
 				<!-- Stage Sounds -->
-				<file name = "intro0n.vag" type = "data" source = "iso/sounds/stage/intro0.vag"/>
-				<file name = "intro1n.vag" type = "data" source = "iso/sounds/stage/intro1.vag"/>
-				<file name = "intro2n.vag" type = "data" source = "iso/sounds/stage/intro2.vag"/>
-				<file name = "intro3n.vag" type = "data" source = "iso/sounds/stage/intro3.vag"/>
+				<file name = "intro0n.sfx" type = "data" source = "iso/sounds/stage/intro0.ogg.sfx"/>
+				<file name = "intro1n.sfx" type = "data" source = "iso/sounds/stage/intro1.ogg.sfx"/>
+				<file name = "intro2n.sfx" type = "data" source = "iso/sounds/stage/intro2.ogg.sfx"/>
+				<file name = "intro3n.sfx" type = "data" source = "iso/sounds/stage/intro3.ogg.sfx"/>
 
 				<!-- Weeb Sounds -->
-				<file name = "intro0p.vag" type = "data" source = "iso/sounds/stage/weeb/intro0p.vag"/>
-				<file name = "intro1p.vag" type = "data" source = "iso/sounds/stage/weeb/intro1p.vag"/>
-				<file name = "intro2p.vag" type = "data" source = "iso/sounds/stage/weeb/intro2p.vag"/>
-				<file name = "intro3p.vag" type = "data" source = "iso/sounds/stage/weeb/intro3p.vag"/>
+				<file name = "intro0p.sfx" type = "data" source = "iso/sounds/stage/weeb/intro0p.ogg.sfx"/>
+				<file name = "intro1p.sfx" type = "data" source = "iso/sounds/stage/weeb/intro1p.ogg.sfx"/>
+				<file name = "intro2p.sfx" type = "data" source = "iso/sounds/stage/weeb/intro2p.ogg.sfx"/>
+				<file name = "intro3p.sfx" type = "data" source = "iso/sounds/stage/weeb/intro3p.ogg.sfx"/>
 			</dir>
 			
 			<!-- Music -->

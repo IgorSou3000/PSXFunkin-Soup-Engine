@@ -1,0 +1,5 @@
+all:
+	@ $(MAKE) -f Makefile.tools
+	@ $(MAKE) -f Makefile.assets
+	@ $(MAKE) -f Makefile
+	@ mkpsxiso -y funkin.xml

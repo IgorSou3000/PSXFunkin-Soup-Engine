@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_PICO_H
 #define PSXF_GUARD_PICO_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Pico character functions
 Character *Char_Pico_New(fixed_t x, fixed_t y);

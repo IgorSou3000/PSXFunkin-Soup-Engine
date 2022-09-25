@@ -7,7 +7,7 @@
 #ifndef PSXF_GUARD_XMASP_H
 #define PSXF_GUARD_XMASP_H
 
-#include "../engine/character.h"
+#include "../character.h"
 
 //Christmas Parents character functions
 Character *Char_XmasP_New(fixed_t x, fixed_t y);

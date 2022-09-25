@@ -7,17 +7,17 @@
 #ifndef PSXF_GUARD_DEBUG_H
 #define PSXF_GUARD_DEBUG_H
 
-#include "engine/io.h"
-#include "engine/gfx.h"
-#include "engine/pad.h"
+#include "io.h"
+#include "gfx.h"
+#include "pad.h"
 #include "stage.h"
 
-#include "engine/fixed.h"
-#include "engine/character.h"
-#include "engine/player.h"
+#include "fixed.h"
+#include "character.h"
+#include "player.h"
 #include "object/object.h"
 
-#include "font/font.h"
+#include "font.h"
 
 typedef struct
 {	

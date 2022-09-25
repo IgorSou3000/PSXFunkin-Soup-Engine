@@ -6,8 +6,8 @@
 
 #include "week5.h"
 
-#include "../engine/archive.h"
-#include "../engine/mem.h"
+#include "../archive.h"
+#include "../mem.h"
 
 //Week 5 background structure
 typedef struct

@@ -6,11 +6,10 @@
 
 #include "week6.h"
 
-#include "../stage.h"
-#include "../engine/archive.h"
-#include "../engine/mem.h"
-#include "../engine/mutil.h"
-#include "../engine/timer.h"
+#include "../archive.h"
+#include "../mem.h"
+#include "../mutil.h"
+#include "../timer.h"
 
 //Week 6 background structure
 typedef struct

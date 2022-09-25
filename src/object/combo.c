@@ -6,9 +6,9 @@
 
 #include "combo.h"
 
-#include "../engine/mem.h"
-#include "../engine/timer.h"
-#include "../engine/random.h"
+#include "../mem.h"
+#include "../timer.h"
+#include "../random.h"
 
 //Combo object functions
 boolean Obj_Combo_Tick(Object *obj)
