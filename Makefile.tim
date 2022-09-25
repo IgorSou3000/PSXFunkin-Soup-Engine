@@ -58,10 +58,10 @@ iso/%.arc:
 iso/menu/menu.arc: iso/menu/back.tim iso/menu/story.tim iso/menu/title.tim iso/menu/hud1.tim
 
 # Menu Player
-iso/characters/menu/characters/characters/player/main.arc: iso/characters/menu/characters/characters/player/bf0.tim iso/characters/menu/characters/characters/player/bf1.tim
+iso/menu/characters/player/main.arc: iso/menu/characters/player/bf0.tim iso/menu/characters/player/bf1.tim
 
 # Menu Opponent
-iso/characters/menu/characters/characters/opponent/main.arc: iso/characters/menu/characters/characters/opponent/dad.tim iso/characters/menu/characters/characters/opponent/spooky.tim iso/characters/menu/characters/characters/opponent/pico.tim iso/characters/menu/characters/characters/opponent/mom.tim iso/characters/menu/characters/characters/opponent/xmasp0.tim iso/characters/menu/characters/characters/opponent/xmasp1.tim iso/characters/menu/characters/characters/opponent/senpai.tim
+iso/menu/characters/opponent/main.arc: iso/menu/characters/opponent/dad.tim iso/menu/characters/opponent/spooky.tim iso/menu/characters/opponent/pico.tim iso/menu/characters/opponent/mom.tim iso/menu/characters/opponent/xmasp0.tim iso/menu/characters/opponent/xmasp1.tim iso/menu/characters/opponent/senpai.tim
 
 # BF
 iso/characters/bf/main.arc: iso/characters/bf/bf0.tim iso/characters/bf/bf1.tim iso/characters/bf/bf2.tim iso/characters/bf/bf3.tim iso/characters/bf/bf4.tim iso/characters/bf/bf5.tim iso/characters/bf/bf6.tim iso/characters/bf/dead0.tim
