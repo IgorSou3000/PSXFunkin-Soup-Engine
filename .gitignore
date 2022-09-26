@@ -3,7 +3,6 @@ do.sh
 pcsx.json
 memcard1.mcd
 memcard2.mcd
-license*.dat
 mips/psyq/
 
 # Exclude executable files
