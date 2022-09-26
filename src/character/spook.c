@@ -48,7 +48,7 @@ static const CharFrame char_spook_frame[] = {
 	{Spook_ArcMain_Idle2, {125,   0, 121, 131}, { 74, 127}}, //5 idle 6
 	
 	{Spook_ArcMain_Left, {  0,   0, 139, 132}, {102, 129}}, //6 left 1
-	{Spook_ArcMain_Left, {113, 123, 142, 133}, {103, 130}}, //7 left 2
+	{Spook_ArcMain_Left, {113, 122, 142, 133}, {103, 130}}, //7 left 2
 	
 	{Spook_ArcMain_Down, {  0,   0, 117, 102}, { 66,  97}}, //8 down 1
 	{Spook_ArcMain_Down, {118,   0, 113, 101}, { 65,  97}}, //9 down 2

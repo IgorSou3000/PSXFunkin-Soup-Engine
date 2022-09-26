@@ -35,8 +35,7 @@
 			
 			<!-- Fonts -->
 			<dir name = "font">
-				<file name = "boldfont.tim" type = "data" source = "iso/font/boldfont.tim"/>
-				<file name = "ariacdr.tim" type = "data" source = "iso/font/arialcdr.tim"/>
+				<file name = "font1.tim" type = "data" source = "iso/font/font1.tim"/>
 			</dir>
 			
 			<!-- Stage assets -->

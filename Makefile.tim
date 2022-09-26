@@ -1,8 +1,7 @@
 all: \
 	iso/menu/menu.arc \
 	iso/menu/loading.tim \
-	iso/font/boldfont.tim \
-	iso/font/arialcdr.tim \
+	iso/font/font1.tim \
 	\
 	\
 	iso/stage/hud0.tim \

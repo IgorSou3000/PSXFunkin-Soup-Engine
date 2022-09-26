@@ -82,7 +82,7 @@ void Back_Week2_DrawBG(StageBack *back)
 	Stage_DrawTex(&this->tex_back1, &windowl_src, &windowl_dst, stage.camera.bzoom);
 	
 	//Draw background
-	RECT back_src = {0, 0, 256, 256};
+	RECT back_src = {0, 0, 255, 255};
 	RECT_FIXED back_dst = {
 		FIXED_DEC(-185,1) - fx,
 		FIXED_DEC(-125,1) - fy,

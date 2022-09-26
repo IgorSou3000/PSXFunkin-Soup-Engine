@@ -633,7 +633,7 @@ static void Stage_TimerGetLength(void)
 
 static void Stage_TimerTick(void)
 {
-	if (stage.song_step >= 0)
+	if (stage.song_step >= 0 && (!(stage.flag & STAGE_FLAG_PAUSED)))
 	{
 		//increasing variable using delta time to avoid desync
 		if (stage.timepassed < stage.timerlength * 60)
