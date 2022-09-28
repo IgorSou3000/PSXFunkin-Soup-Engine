@@ -244,11 +244,11 @@ static u8 Stage_HitNote(PlayerState *this, u8 type, fixed_t offset)
 		 5, //SHIT
 	};
 	this->score += score_inc[hit_type];
-	this->refresh_score = true;
 
 	this->min_accuracy += 20;
 	this->max_accuracy += (hit_type * 10) + 20;
-	this->refresh_accuracy = true;
+
+	this->refresh_info = true;
 	
 	//Restore vocals and health
 	Stage_StartVocal();
@@ -370,10 +370,8 @@ static void Stage_NoteCheck(PlayerState *this, u8 type)
 		
 		this->health -= 1000;
 		this->score -= 5;
-		this->refresh_score = true;
-
 		this->miss++;
-		this->refresh_miss = true;
+		this->refresh_info = true;
 	}
 }
 
@@ -672,8 +670,8 @@ static void Stage_TimerTick(void)
 	);
 
 		//draw square length
-		RECT square_black = {0, 251, 111, 4};
-		RECT square_fill = {0, 251, (110 * (stage.timepassed) / (stage.timerlength * 60)), 4};
+		RECT square_black = {0, 250, 111, 5};
+		RECT square_fill = {0, 250, (110 * (stage.timepassed) / (stage.timerlength * 60)), 5};
 
 		RECT_FIXED square_dst = {
 		FIXED_DEC(-56,1),
@@ -806,7 +804,7 @@ static void Stage_DrawHealth(s16 health, u8 i, s8 ox)
 	}
 	
 	//Get src and dst
-	fixed_t hx = (128 << FIXED_SHIFT) * (10000 - health) / 10000;
+	fixed_t hx = (100 << FIXED_SHIFT) * (10000 - health) / 10000;
 	RECT src = {
 		(i % 2) * 108 + dying + winning,
 		(i / 2) * 36,
@@ -820,7 +818,7 @@ static void Stage_DrawHealth(s16 health, u8 i, s8 ox)
 		src.h << FIXED_SHIFT
 	};
 	if (stage.prefs.downscroll)
-		dst.y = -dst.y - FIXED_DEC(44,1);
+		dst.y = -dst.y - FIXED_DEC(46,1);
 
 	//invert icon
 	if (stage.mode == StageMode_Swap)
@@ -842,18 +840,18 @@ static void Stage_DrawHealthBar(s16 x, s32 color)
 	//Get src and dst
 	RECT src = {
 		0,
-	  251,
+	  250,
 		x,
-		4
+		5
 	};
 	RECT_FIXED dst = {
-		FIXED_DEC(-128,1),
+		FIXED_DEC(-100,1),
 		FIXED_DEC(90,1),
 		src.w << FIXED_SHIFT,
 		src.h << FIXED_SHIFT
 	};
 	if (stage.prefs.downscroll)
-		dst.y = -dst.y - dst.h;
+		dst.y = -dst.y - dst.h - FIXED_DEC(2,1);
 	
 	Stage_DrawTexCol(&stage.tex_hud1, &src, &dst, stage.bump, red >> 1, blue >> 1, green >> 1);
 }
@@ -956,10 +954,9 @@ static void Stage_DrawNotes(void)
 					Stage_MissNote(this);
 					this->health -= 475;
 					this->miss++;
-					this->refresh_miss = true;
 
 					this->max_accuracy += 20;
-					this->refresh_accuracy = true;
+					this->refresh_info = true;
 			}
 			
 			//Update current note
@@ -1383,17 +1380,18 @@ static void Stage_LoadState(void)
 		stage.player_state[i].health = 10000;
 		stage.player_state[i].combo = 0;
 		
-		stage.player_state[i].refresh_score = false;
 		stage.player_state[i].score = 0;
-		strcpy(stage.player_state[i].score_text, "Score: ?");
 
-		stage.player_state[i].refresh_miss = false;
 		stage.player_state[i].miss = 0;
-		strcpy(stage.player_state[i].miss_text, "Misses: 0");
 
-		stage.player_state[i].refresh_accuracy = false;
 		stage.player_state[i].min_accuracy = stage.player_state[i].max_accuracy = 0;
-		strcpy(stage.player_state[i].accuracy_text, "Accuracy: ?");
+
+		stage.player_state[i].refresh_info = false;
+
+		if (stage.mode != StageMode_2P)
+				strcpy(stage.player_state[i].info, "Score: ? | Misses: 0 | Accuracy: ?");
+		else
+				strcpy(stage.player_state[i].info, "Score: ? | Misses: 0");
 		
 		stage.player_state[i].pad_held = stage.player_state[i].pad_press = 0;
 	}
@@ -1582,6 +1580,7 @@ void Stage_Tick(void)
 	
 	if (Trans_Tick())
 	{
+		stage.flag &= ~STAGE_FLAG_PAUSED;
 		switch (stage.trans)
 		{
 			case StageTrans_Menu:
@@ -1902,25 +1901,6 @@ void Stage_Tick(void)
 			for (u8 i = 0; i < ((stage.mode == StageMode_2P) ? 2 : 1); i++)
 			{
 				PlayerState *this = &stage.player_state[i];
-						
-				//Get string representing number
-				if (this->refresh_score)
-				{
-					if (this->score != 0)
-						sprintf(this->score_text, "Score: %d0", this->score * stage.max_score / this->max_score);
-					else
-						strcpy(this->score_text, "Score: 0");
-					this->refresh_score = false;
-				}
-
-				if (this->refresh_miss)
-				{
-					if (this->miss != 0)
-						sprintf(this->miss_text, "Misses: %d", this->miss);
-					else
-						strcpy(this->miss_text, "Misses: 0");
-					this->refresh_miss = false;
-				}
 
 				static const char *rating_text[] = {
 				"You Suck!", // 0 - 9%
@@ -1943,10 +1923,8 @@ void Stage_Tick(void)
 				"- PFC", //100%
 			};
 
-				this->accuracy = (this->min_accuracy * 100) / (this->max_accuracy);
-
 				//making this for in the case of special ratings,like Nice!
-				static u8 rating;
+				u8 rating;
 
 				switch (this->accuracy)
 				{
@@ -1960,7 +1938,7 @@ void Stage_Tick(void)
 				}
 
 				//fc rating
-				static u8 fc;
+				u8 fc;
 
 				if (this->accuracy <= 79)
 					fc = 0;
@@ -1970,46 +1948,28 @@ void Stage_Tick(void)
 
 				else
 					fc = 2;
-						
-				//Get string representing number
-				if (this->refresh_accuracy)
+
+				this->accuracy = (this->min_accuracy * 100) / (this->max_accuracy);
+
+				if (this->refresh_info)
 				{
-					if (this->accuracy != 0)
-						sprintf(this->accuracy_text, "Accuracy:	 (%d%%)  %s  %s", this->accuracy, rating_text[rating], (this->miss == 0) ? fc_text[fc] : '\0');
+					if (stage.mode != StageMode_2P)
+						sprintf(this->info, "Score: %d0 | Misses: %d | Accuracy: (%d%%) %s  %s", this->score * stage.max_score / this->max_score, this->miss, this->accuracy, rating_text[rating], (this->miss == 0) ? fc_text[fc] : '\0');
 					else
-						strcpy(this->accuracy_text, "Accuracy: ?");
-					this->refresh_accuracy = false;
-				}
+						sprintf(this->info, "Score: %d0 | Misses: %d", this->score * stage.max_score / this->max_score, this->miss);
 
-				char text[0x100];
-
-				if (stage.mode != StageMode_2P)
-				{
-					sprintf(text, "%s | %s | %s", this->score_text, this->miss_text, this->accuracy_text);
-								
-						//Draw text
-						stage.font_cdr.draw(&stage.font_cdr,
-							text,
-							20, 
-							(stage.prefs.downscroll) ? -88 : 98,
-							FontAlign_Center,
-							"stage"
-						);
+					this->refresh_info = false;
 				}
-				else
-				{
-					sprintf(text, "%s | %s", this->score_text, this->miss_text);
-								
-						//Draw text
-						stage.font_cdr.draw(&stage.font_cdr,
-							text,
-							(i == 0) ? 80 : -80, 
-							(stage.prefs.downscroll) ? -88 : 98,
-							FontAlign_Center,
-							"stage"
-						);
-					}
-				}
+									
+				//Draw text
+				stage.font_cdr.draw(&stage.font_cdr,
+					this->info,
+					(stage.mode != StageMode_2P) ? 20 : (i == 0) ? 80 : -80, 
+					(stage.prefs.downscroll) ? -88 : 98,
+					FontAlign_Center,
+					"stage"
+				);
+			}
 					
 			//normal and swap healthbar
 			if (stage.mode != StageMode_2P)

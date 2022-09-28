@@ -156,17 +156,12 @@ typedef struct
 	s16 health;
 	u16 combo;
 	
-	boolean refresh_score;
 	s32 score, max_score;
-	char score_text[13];
-
-	boolean refresh_miss;
-	s32 miss;
-	char miss_text[13];
-
-	boolean refresh_accuracy;
+	s16 miss;
 	s32 min_accuracy, max_accuracy, accuracy;
-	char accuracy_text[0x80];
+
+	char info[65];
+	boolean refresh_info;
 	
 	u16 pad_held, pad_press;
 } PlayerState;
